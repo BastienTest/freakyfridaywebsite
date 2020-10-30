@@ -1,0 +1,93 @@
+header {
+	background-image: URL("3boules.jpg");
+	height: 320px;
+	background-size: 100%; 	
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	background-position: center;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	position: relative;
+	top: 0px;
+	color: magenta;
+	font-size: 80px;
+	background-color:black;	
+}
+
+a{
+	color: magenta;
+}
+
+body{
+	font-size: 18px;
+	font-family: times, times new roman;
+	padding:0 30px;
+	margin:0px;
+}
+
+nav .logo a {
+	background: red;
+	display: inline-block;
+	text-indent: -999999px;
+	background-image: url("logo.png");
+	background-size: 90px;
+	width: 90px;
+	height: 90px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: -25px;
+	border-radius: 50%;
+	box-shadow: black 0px 0px 10px;
+}
+
+nav >ul {	
+	display: flex;
+	list-style-type:none;
+	background-color:black;	
+	justify-content: space-around;
+	padding:0px;
+	margin:0px;	
+	height: 100px;
+	position: relative;
+}
+
+nav > ul > li {
+	display: flex-block;	
+	background-color: black;
+	font-size: 30px;
+	padding: 30px 30px;
+	color:#1122cc;	
+	position: relaative;
+}
+
+h2{
+	margin-top: 70px;
+}
+
+.bildet1 {
+	width: 200px;
+	Height: 150px;
+	float: left;
+	margin: 0 50px 0 0;
+}
+
+.p1{
+	margin-right: 60px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	
+}
+
+footer > ul > li{
+	list-style-type: none;
+}
